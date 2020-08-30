@@ -5,7 +5,7 @@ import * as React from "react";
 
 import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
-import TabOneScreen from "../screens/TabOneScreen";
+import HomeScreen from "../screens/HomeScreen";
 import TabTwoScreen from "../screens/TabTwoScreen";
 import {
   BottomTabParamList,
@@ -82,10 +82,10 @@ function HomeNavigator() {
     <TabOneStack.Navigator>
       <TabOneStack.Screen
         name="HomeScreen"
-        component={TabOneScreen}
+        component={HomeScreen}
         options={{
           headerRightContainerStyle: {
-            marginRight: 10,
+            marginRight: 15,
           },
           headerTitleAlign: "center",
           headerTitle: () => (
@@ -111,7 +111,7 @@ function HomeNavigator() {
             />
           ),
           headerLeftContainerStyle: {
-            marginLeft: 10,
+            marginLeft: 15,
           },
         }}
       />

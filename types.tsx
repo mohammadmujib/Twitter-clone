@@ -10,10 +10,28 @@ export type BottomTabParamList = {
   Messages: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type HomeNavigatorParamList = {
+  HomeScreen: undefined;
 };
 
 export type TabTwoParamList = {
   TabTwoScreen: undefined;
+};
+
+export type UserType = {
+  id: string;
+  username: string;
+  name: string;
+  image?: string;
+};
+
+export type TweetType = {
+  id: string;
+  createdAt: string;
+  user: UserType;
+  content: string;
+  image?: string;
+  numberOfComment?: number;
+  numberOfTweets?: number;
+  numberOfLikes?: number;
 };
