@@ -1,19 +1,69 @@
-const tweets = {
-  id: "t1",
-  user: {
-    id: "u1",
-    username: "mujahidabbas",
-    name: "Mohammad Mujib",
+const tweets = [
+  {
+    id: "t1",
+    user: {
+      id: "u1",
+      username: "SavinVadim_",
+      name: "Vadim Savin",
+      image:
+        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t31.0-8/s960x960/22256588_1932617800312085_5686197942193420542_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=svjjE7DUkc0AX9yjcdC&_nc_ht=scontent.fkiv3-1.fna&tp=7&oh=1df4116c73c45a32ebad070704ca3333&oe=5F6ECD77",
+    },
+    createdAt: "2020-08-27T12:00:00.000Z",
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image:
-      "https://avatars0.githubusercontent.com/u/63091483?s=460&u=f6d8e0f88d62eccf95477cc46f808e2a5f884c3c&v=4",
+      "https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg",
+    numberOfComments: 123,
+    numberOfRetweets: 11,
+    numberOfLikes: 10,
   },
-  createdAt: "2020-08-29T12:00:00.00Z",
-  content: "Lorem Ipsum",
-  image:
-    "https://i.pinimg.com/originals/82/e5/97/82e597dda640b0a0af210a8074a03090.jpg",
-  numberOfComment: 113,
-  numberOfTweets: 12,
-  numberOfLikes: 210,
-};
+  {
+    id: "t2",
+    user: {
+      id: "u1",
+      username: "SavinVadim_",
+      name: "Vadim Savin",
+      image:
+        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t31.0-8/s960x960/22256588_1932617800312085_5686197942193420542_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=svjjE7DUkc0AX9yjcdC&_nc_ht=scontent.fkiv3-1.fna&tp=7&oh=1df4116c73c45a32ebad070704ca3333&oe=5F6ECD77",
+    },
+    createdAt: "2020-08-27T12:00:00.000Z",
+    content:
+      "Hey Hey Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    numberOfComments: 4,
+    numberOfRetweets: 11,
+    numberOfLikes: 99,
+  },
+  {
+    id: "t3",
+    user: {
+      id: "u1",
+      username: "SavinVadim_",
+      name: "Vadim Savin",
+      image:
+        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t31.0-8/s960x960/22256588_1932617800312085_5686197942193420542_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=svjjE7DUkc0AX9yjcdC&_nc_ht=scontent.fkiv3-1.fna&tp=7&oh=1df4116c73c45a32ebad070704ca3333&oe=5F6ECD77",
+    },
+    createdAt: "2020-08-27T12:00:00.000Z",
+    content: "Hello World",
+    numberOfComments: 4,
+    numberOfRetweets: 11,
+    numberOfLikes: 99,
+  },
+  {
+    id: "t4",
+    user: {
+      id: "u1",
+      username: "SavinVadim_",
+      name: "Vadim Savin",
+      image:
+        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t31.0-8/s960x960/22256588_1932617800312085_5686197942193420542_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=svjjE7DUkc0AX9yjcdC&_nc_ht=scontent.fkiv3-1.fna&tp=7&oh=1df4116c73c45a32ebad070704ca3333&oe=5F6ECD77",
+    },
+    createdAt: "2020-08-27T12:00:00.000Z",
+    content:
+      "Hey Hey Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    numberOfComments: 4,
+    numberOfRetweets: 11,
+    numberOfLikes: 99,
+  },
+];
 
 export default tweets;

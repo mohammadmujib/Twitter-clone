@@ -8,7 +8,7 @@ import tweets from "../data/tweets";
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Tweet tweet={tweets} />
+      <Tweet tweet={tweets[0]} />
     </View>
   );
 }
